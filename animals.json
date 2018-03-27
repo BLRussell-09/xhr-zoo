@@ -1,0 +1,109 @@
+{
+  "animals": [
+    {
+      "name":"Hellbender",
+      "type":"Amphibian",
+      "number":13,
+      "isCarnivore": true,
+      "imageURL":"https://www.nashvillezoo.org/assets/2147/12_hellbender-sm.jpg"
+    },
+    {
+      "name":"Puerto Rican Crested Toad",
+      "type":"Amphibian",
+      "number":4,
+      "isCarnivore": true,
+      "imageURL":"https://www.nashvillezoo.org/assets/2147/12_prct.jpg"
+    },
+    {
+      "name":"Axolotl",
+      "type":"Amphibian",
+      "number":1,
+      "isCarnivore": true,
+      "imageURL":"https://www.nashvillezoo.org/assets/2147/12_axolotl-web.jpg"
+    },
+    {
+      "name":"Common Barn Owl",
+      "type":"Bird",
+      "number":40,
+      "isCarnivore": true,
+      "imageURL":"https://www.nashvillezoo.org/assets/2147/12_barnowl1-sq.jpg"
+    },
+    {
+      "name":"Ostrich",
+      "type":"Bird",
+      "number":5,
+      "isCarnivore": false,
+      "imageURL":"https://www.nashvillezoo.org/assets/2147/12_ostrich1.jpg"
+    },
+    {
+      "name":"Snowy Owl",
+      "type":"Bird",
+      "number":10,
+      "isCarnivore": true,
+      "imageURL":"https://www.nashvillezoo.org/assets/2147/12_snowyowl1.jpg"
+    },
+    {
+      "name":"Red Panda",
+      "type":"Mammal",
+      "number":7,
+      "isCarnivore": false,
+      "imageURL":"https://www.nashvillezoo.org/assets/2147/12_redpanda4.jpg"
+    },
+    {
+      "name":"Southern White Rhinoceros",
+      "type":"Mammal",
+      "number":6,
+      "isCarnivore": false,
+      "imageURL":"https://www.nashvillezoo.org/assets/2147/12_white_rhino_-_2017_-_brandon_jackson.jpg"
+    },
+    {
+      "name":"Mexican Spider Monkey",
+      "type":"Mammal",
+      "number":15,
+      "isCarnivore": true,
+      "imageURL":"https://www.nashvillezoo.org/assets/2147/12_spider-monkey---2017---amiee-stubbs-28-web.jpg"
+    },
+    {
+      "name":"Giant Haitian Galliwasp",
+      "type":"Reptile",
+      "number":100,
+      "isCarnivore": true,
+      "imageURL":"https://www.nashvillezoo.org/assets/2147/12_hellbender-sm.jpg"
+    },
+    {
+      "name":"Komodo Dragon",
+      "type":"Reptile",
+      "number":500,
+      "isCarnivore": true,
+      "imageURL":"https://www.nashvillezoo.org/assets/2147/komodo-blog.jpg"
+    },
+    {
+      "name":"Northern Copperhead",
+      "type":"Reptile",
+      "number":1,
+      "isCarnivore": true,
+      "imageURL":"https://www.nashvillezoo.org/assets/2147/12_copperhead-web.jpg"
+    },
+    {
+      "name":"Blue Discus",
+      "type":"Fish",
+      "number":13,
+      "isCarnivore": true,
+      "imageURL":"https://www.nashvillezoo.org/assets/2147/12_discus-web.jpg"
+    },
+    {
+      "name":"Lined Seahorse",
+      "type":"Fish",
+      "number":433,
+      "isCarnivore": true,
+      "imageURL":"https://www.nashvillezoo.org/assets/2147/12_lined-seahorse.jpg"
+    },
+    {
+      "name":"White Blotched River Stingray",
+      "type":"Amphibian",
+      "number":2,
+      "isCarnivore": true,
+      "imageURL":"https://www.nashvillezoo.org/assets/2147/12_white-blotched-stingray.jpg"
+    }
+  ]
+}
