@@ -12,19 +12,21 @@ body {
   padding: 1em;
 }
 
-.container-1 {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+@media(min-width: 768px){
+  .container-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
 }
-
 .container-1 .animal {
   flex-basis: 27%
 }
 .animal {
   background-color: white;
-  flex: 1;
+  /* flex: 1; */
   text-align: center;
+  margin-bottom: 2em;
 }
 
 /* Image Styling */
