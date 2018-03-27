@@ -8,13 +8,21 @@ const buildDomString = (animalsArray) => {
   let domString = ''
   animalsArray.forEach ((animal) => 
   {
+    domString += `<div class="animal">`
     domString += `<h1>${animal.name}</h1>`
+    domString += `<h3>${animal.number}</h3>`
+    console.log(animal.imageUrl)
+    domString += `<img src="${animal.imageURL}"></img>`
+    domString += `<div class="button">`
+    domString += `<button>Escaped</button>`
+    domString += `</div>`
+    domString += `</div>`
   })
   printToDom(domString, "zoo")
 };
 
 function iFail() {
-  console.log('I effed up.')
+  console.log('I effed up.');
 }
 
 function loadMe() {
@@ -31,3 +39,4 @@ function startApp() {
 }
 
 startApp()
+

@@ -6,3 +6,31 @@ body {
   text-align: center;
   margin: 0 auto;
 }
+
+.container-1  div.animal{
+  border: 1px #ccc solid;
+  padding: 1em;
+}
+
+.container-1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.container-1 .animal {
+  flex-basis: 27%
+}
+.animal {
+  background-color: white;
+  flex: 1;
+  text-align: center;
+}
+
+/* Image Styling */
+
+img {
+  height: auto;
+  width: 70%;
+  margin: 0 auto;
+}
