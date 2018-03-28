@@ -35,11 +35,34 @@ const addEscapedEventListeners = () => {
   }
 }
 
-const animalEscaped = () => {
-  
+const animalEscaped = (e) => {
+  const badAnimal = e.target.parentNode
   showCarnivores();
   showVegetables();
-}
+  showFoundButton(badAnimal)
+};
+
+// Animals Found Button 
+
+const showFoundButton = (buttonContainer) => {
+  buttonContainer.innerHTML = `<button id="found">Found</button>`
+  initializeFoundButton()
+};
+
+const initializeFoundButton = () => {
+  const foundButton = document.getElementById('found');
+  foundButton.addEventListener("click", () => {
+    const animals = document.getElementsByClassName("animal")
+    for (idx=0; idx < animals.length; idx++) {
+      animals[idx].children[3].innerHTML = `<button class="escaped">Escaped</button>`
+      animals[idx].classList.remove('red')
+      animals[idx].classList.remove('green')
+    }
+    addEscapedEventListeners();
+  })
+};
+
+// Show Colors
 
 const showCarnivores = () => {
   const carnivores = document.getElementsByClassName('carnivore')
@@ -52,11 +75,12 @@ const showCarnivores = () => {
 const showVegetables = () => {
   const vegetables = document.getElementsByClassName('vegetable')
   for (idx = 0; idx < vegetables.length; idx++) {
-    vegetables[idx].children[3].innerHTML = '';
+    vegetables[idx].children[3].innerHTML = `<button>Eat Me</button>`;
     vegetables[idx].classList.add('green');
   }
 
 }
+
 // Xhr Request 
 
 function iFail() {
