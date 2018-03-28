@@ -35,4 +35,16 @@ img {
   height: auto;
   width: 70%;
   margin: 0 auto;
+  border: 1px #ccc solid;
+  border-radius: 4%;
+}
+
+/* Card Colors */
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
 }
